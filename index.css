@@ -1,0 +1,160 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --bg-color: #fffefe;
+    --text-color: #000;
+
+}
+
+/* Navbar */
+.body-style {
+    width: 90%;
+    margin: 10px auto;
+    color:#fffefe;
+}
+
+.logo {
+    padding: 0px 35px;
+    height: 3.8rem;
+
+}
+
+.nav-link {
+    font-size: 18px;
+    padding: 0 15px 0 15px;
+    color: #000;
+    color: var(--text-dark) !important
+}
+
+.nav-icon {
+    font-size: 18px;
+    padding: 0 10px 0 10px;
+    color: var(--text-dark);
+
+}
+.img-slider{
+    width: 60%;
+    height:90vh;
+    margin-left:12px;
+}
+.slider-item{
+    display: flex;
+    align-items: center;
+   background-color: rgb(242,242,242);
+   
+}
+.left{
+display: flex;
+flex-direction: column-reverse;
+}
+.left img{
+    margin-right: 10px;
+}
+.slider-item h1{
+    font-size: 30px;
+    text-align: left;
+}
+.btn{
+    padding: 10px 40px;
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+.left{
+    display:flex;
+    flex-direction: row-reverse;
+
+}
+.margin-top{
+margin-top: 8rem !important
+}
+.img-device{
+    height: 4.5rem;
+    width: 4.5rem;
+
+}
+.device-text a{
+    font-size:16px;
+    text-decoration: underline;
+    font-weight:bold;
+}
+.card{
+    border:none;
+}
+.card a{
+    font-size:16px;
+    text-decoration: underline;
+    font-weight:bold;
+}
+.card h2{
+    font-size: 25px;
+
+}
+.ai{
+    height:450px;
+    width:100%;
+    background-image:url("./img\ bing.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding-left: 70px;
+}
+.ai p{
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.social-icon{
+    margin-top: 4rem;
+}
+.social-icon p{
+    font-size: 1.5rem;
+}
+.social-icon i{
+    margin-top: -10px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+footer{
+    background-color: RGB(242 242 242);
+    padding: 40px 0;
+}
+footer li {
+    list-style: none !important;
+    
+    
+}
+footer a{
+   
+    text-decoration: none;
+    color: var(--text-dark);
+}
+.footer-ul{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.footer-ul ul{
+    margin-top:20px;
+}
+.footer-ul li{
+    margin-top:10px;
+    font-size:14px;
+}
+@media(max-width:560px){
+    .slider-item{
+        display:flex;
+        flex-direction:column;
+    }
+    .img-slider{
+        height:auto;
+        width:100%;
+    }
+}
